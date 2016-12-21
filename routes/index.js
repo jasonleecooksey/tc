@@ -10,7 +10,6 @@ router.get('/', function(req, res, next) {
 router.get('/about', function(req, res, next) {
   res.render('about', { title: 'Express' });
 
-/* GET home page. */
 router.get('/contact', function(req, res, next) {
   res.render('contact', { title: 'Express' });
 });
